@@ -1,3 +1,3 @@
-
-start from scratch
+从最简单的爬虫开始，练习Python
+从零开始，一步一个脚印。
 
