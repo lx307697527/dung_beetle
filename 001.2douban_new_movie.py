@@ -1,7 +1,7 @@
 
 import re, urllib
 
-#获取豆瓣新片排行版
+#获取豆瓣新片排行榜
 
 raw_url = 'http://movie.douban.com/chart'
 html = urllib.urlopen(raw_url).read()
