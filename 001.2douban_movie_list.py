@@ -64,10 +64,10 @@ for link in week.find_all('a'):
 
 
 #北美票房榜影名
-week = soup.find('div', id='ranking').find('ul', id='listCont1')
-usa = []
-for link in week.find_all('a'):
-    usa.append(link.get_text())
+week_name = soup.find('div', id='ranking').find('ul', id='listCont1')
+america = []
+for link in week_name.find_all('a'):
+    america.append(link.get_text())
 
 #票房榜的钱
 money = soup.find('div', id='ranking').find('ul', id='listCont1')
@@ -77,12 +77,15 @@ for m in money.find_all('span'):
 m_date = dollar.pop(0)
 
 def split(num2):
-    print usa[num2], dollar[num2]
+    print america[num2], dollar[num2]
 
 
 print '-' * 80
 print '北美票房榜....', m_date
-len_usa = len(usa)
-for fuck in range(len_usa):
-    split(fuck)
+
+lens = len(america)
+for num2 in range(lens):
+    split(num2)
+
+
 
