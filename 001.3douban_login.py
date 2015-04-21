@@ -4,6 +4,7 @@ import urllib
 import urllib2
 import cookielib
 import random
+import re
 from bs4 import BeautifulSoup
 
 
