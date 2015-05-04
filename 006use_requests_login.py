@@ -2,7 +2,8 @@
 # -*- coding:utf-8 -*-
 ''' The Python standard library urllib and urllib2 is really thoroughly broken, 
 requests is HTTP for human, used requests, you works will be very simple.
-The requests documentation  http://www.python-requests.org/en/latest/user/quickstart/  '''
+The requests documentation  http://www.python-requests.org/en/latest/user/quickstart/ 
+I show some usage for requests below, I tried to log in www.douban.com/doumail'''
 
 import requests
 import re
@@ -15,8 +16,8 @@ headers = {'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64)\
 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36',}
 
 my_post = {'redir':'http://www.douban.com/doumail',
-    'form_email':'2018464923@qq.com',
-    'form_password':'7748548w',
+    'form_email':'you account',
+    'form_password':'you password',
     'login':'登录',
     }
 r = requests.post(login_url, data = my_post, headers = headers)
