@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 import poplib
 host = "pop3.163.com"
-user = "zhanzhuce"
-password = "7756789w"
+user = ""
+password = ""
 
 my = poplib.POP3(host)  #created a pop3 object, connected server at this time.
 my.set_debuglevel(1)   #set the debug, you can see detail with the server.
