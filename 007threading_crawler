@@ -1,6 +1,6 @@
 #!/usr/bin/python
 '''
-ues multiple thread get the first 50 pages from ubuntu-forum, 
+use multiple thread get the first 50 pages from ubuntu-forum, 
 but not perfect, because have some repetitive record
 '''
 
