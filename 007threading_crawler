@@ -16,11 +16,10 @@ for x in range(1, 50):
     url_list.append(raw_url)
 
 class MyThread(threading.Thread):
-    def __init__(self, func, args, name=""):
+    def __init__(self, func, args):
         threading.Thread.__init__(self)
         self.func = func
         self.args = args
-        self.name = name
     def run(self):
         apply(self.func, self.args)
 
@@ -39,7 +38,7 @@ def running(url):
     # lock.release()
 
 if __name__ == '__main__':
-    thread_list = [ MyThread(running, (url, ), running.__name__) for url in url_list ]
+    thread_list = [ MyThread(running, (url, )) for url in url_list ]
     for t in thread_list:
         t.setDaemon(True)
         t.start()
