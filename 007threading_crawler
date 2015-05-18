@@ -47,6 +47,7 @@ if __name__ == '__main__':
         i.join()
     print "process ended"
 
+    # inspect repetition data
     with open('/home/zhg/Pictures/cao.txt', 'r') as f:
         f_list = f.readlines()
         set_list = set(f_list)
