@@ -34,7 +34,7 @@ my_post["captcha-id"] = ids[0]
 q = requests.post(login_url, data = my_post, headers = headers)
 print q.url
 
-''' use bs4 filter douban.com's doumail below'''
+''' use bs4 filter douban.com's doumail following'''
 if q.url == "http://www.douban.com/doumail/":
     print " login successfully!"
     soup = BeautifulSoup(q.text)
