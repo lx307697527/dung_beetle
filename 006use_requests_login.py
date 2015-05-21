@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-''' The Python standard library urllib and urllib2 is really thoroughly broken, 
-requests is HTTP for human, used requests, you works will be very simple.
-The requests documentation  http://www.python-requests.org/en/latest/user/quickstart/ 
-I show some usage for requests below, I tried to log in www.douban.com/doumail'''
 
 import requests
 import re
