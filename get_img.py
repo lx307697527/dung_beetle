@@ -1,3 +1,4 @@
+#批量下载某论坛某文章的图片
 import re, urllib, random
 
 list_1=["http://www.yuhuagu.com/duorou/2012/0704/3534.html",]
