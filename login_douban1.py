@@ -1,4 +1,5 @@
-#模拟登录豆瓣，bs4截取 http://www.douban.com/doumail/ 豆邮
+#!/usr/bin/env python
+#使用urllib, urllib2模拟登录豆瓣，获取豆邮列表邮
 
 import urllib
 import urllib2
@@ -6,7 +7,6 @@ import cookielib
 import random
 import re
 from bs4 import BeautifulSoup
-
 
 class DB(object):
     def __init__(self, email, passwd):
