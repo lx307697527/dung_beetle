@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-''' 使用多线程爬取某论坛的帖子url和标题 '''
+''' 使用多进程爬取某论坛的帖子url和标题 '''
 
 import requests
 from bs4 import BeautifulSoup
