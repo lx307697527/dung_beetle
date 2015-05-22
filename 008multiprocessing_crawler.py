@@ -24,7 +24,7 @@ def running(url, q):
             f.writelines('\n')
 
 if __name__ == '__main__':
-    manager = multiprocessing.Manager()
+    manager = multiprocessing.Manager() 
     p = multiprocessing.Pool(len(url_list))
     q = manager.Queue()
     lock = manager.Lock()
