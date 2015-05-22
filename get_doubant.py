@@ -1,4 +1,4 @@
-#获取豆瓣新片榜， 口碑榜， 票房榜，第一次写这么长的，写的实在冗余，不少都是笨办法
+#使用BeautifulSoup获取豆瓣新片榜， 口碑榜， 票房榜
 
 import re, urllib
 from bs4 import BeautifulSoup
