@@ -1,6 +1,6 @@
 #!/usr/bin/python
 '''
-开始50个多线程抓取某论坛帖子的url和标题
+使用多线程抓取某论坛帖子的url和标题
 '''
 
 import requests
