@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
-
+''' 使用requests登录豆瓣，获取豆邮列表 '''
 import requests
 import re
 from bs4 import BeautifulSoup
